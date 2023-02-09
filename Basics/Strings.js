@@ -1,0 +1,11 @@
+var n = "Masood";
+console.log("Hello ".concat(n, ", would you like to learn\nsome Typescript today?\n"));
+var n2 = "masood waheed";
+console.log(n2.toUpperCase(), n2.toLowerCase());
+console.log("Albert Einstein once said, A person who never made a mistake never tried anything new.\n");
+var famous_person = "Anounymous";
+var message = "New Message";
+console.log(famous_person, message);
+var stripName = "\tMasood\n";
+console.log("Before Stripping: ", stripName);
+console.log("After Stripping: ", stripName.trim(), "\n");
