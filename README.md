@@ -1,2 +1,2 @@
-# first code of typescript
-writing Hello World in typescript!
+# Fundamentals of Typescript
+Starting with basics of typescript
