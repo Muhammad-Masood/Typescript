@@ -1,7 +1,11 @@
 const n = "Masood";
 console.log(`Hello ${n}, would you like to learn
 some Typescript today?\n`);
-
+// check type of variable
+console.log(typeof n,"\n")
+// type conversion
+// The variables in TypeScript cannot change types.
+// console.log(n.number())
 let n2 = "masood waheed";
 console.log(n2.toUpperCase(),n2.toLowerCase(),"\n");
 

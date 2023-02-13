@@ -15,9 +15,16 @@ console.log(greet1, names[2], greet2);
 console.log(greet1, names[3], greet2);
 //Own Array
 var mode = ["Car", "Bike", "Bus", "Super Bike", "Hijet"];
-for (var index = 0; index < mode.length; index++) { //We will see this later
+// for(var i = 0; i < mode.length; i)
+for (index in mode) { //We will see this later
     console.log("I would like to own a Honda", mode[index]);
 }
+// Explain {in }
+// for in loop use for iteration
+// The for in loop[iterate] over the mode array
+// each iteration returns a key(index)
+// the key is use to access the value of the array
+// the value of the key is index in the array
 //Guest List
 var inv = ["Sameer", "Zain", "Haris"];
 console.log("Inviting", inv[0], "to Dinner");
