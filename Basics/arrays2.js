@@ -1,10 +1,43 @@
-"use strict";
 //Ex:18 Seeing the world
-const places = ["Turkey", "Italy", "Switzerland", "Swat", "Kashmir"];
-for (let index = 0; index < places.length; index++) {
+var places = ["Turkey", "Italy", "Switzerland", "Swat", "Kashmir"];
+for (var index = 0; index < places.length; index++) {
     console.log(places[index]);
 }
 console.log("\n");
+// for(let i = 0 ; i<places.length ; i++){
+//     for(let j = 0 ; j<places.length ; j++){
+//     }
+// }
+var not = true;
+var count = 0;
+var exclude = 0;
+for (var i = 0; i < places.length; i++) {
+    var temp = places[i];
+    // console.log(tempElem);
+    for (var j = 0; j < places.length; j++) {
+        var comp = places[j];
+        if (i != j && temp.charCodeAt(0) <= comp.charCodeAt(0)) {
+            ++count;
+            // console.log(comp,j); console.log(comp.charCodeAt(0));
+        }
+    }
+    console.log(count, i);
+    var c = (places.length - 1) - exclude;
+    if (count == c) {
+        console.log(temp, temp.charCodeAt(0));
+        ++exclude;
+        count = 0;
+    }
+    // else{
+    //     not = true;
+    // }
+    //  console.log("\n",temp,temp.charCodeAt(0));
+}
+// let a = 'Turkey'; let b = 'Italy';
+// console.log(a.charCodeAt(0),b.charCodeAt(0));
+// for (let index = 0; index < places.length; index++) {
+//     console.log(places[index]);
+// }
 // let temp; let elm1; let elm2;
 // for (let index = 0; index < places.length; index++){
 //     elm1 = places[index];
@@ -22,9 +55,9 @@ console.log("\n");
 //     console.log(places[index]);
 // }
 console.log("\n");
-places.sort(); //arranging array in alphabetical order
-for (let index = 0; index < places.length; index++) {
-    console.log(places[index]);
-}
+// places.sort(); //arranging array in alphabetical order
+// for (let index = 0; index < places.length; index++) {
+//     console.log(places[index]);
+// }
 //Ex:19 Dinner Guests
-console.log(`I'm inviting ${inv.length} guests to the dinner!`);
+console.log("I'm inviting 2 guests to the dinner!");
