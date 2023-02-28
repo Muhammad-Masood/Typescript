@@ -28,7 +28,7 @@ for(let i = 0 ; i<jenny.length ; i++){
 }
 console.log("Jenny is here!",yes == true );
 
-// Ex:24More Conditional Tests:
+// Ex:24 More Conditional Tests:
 let str3 = "masood";
 let str4 = "waheed";
 console.log("str3 and str4 are different", str3 == str4);
