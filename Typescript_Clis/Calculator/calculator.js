@@ -1,5 +1,7 @@
-import inquirer from "inquirer";
+#!/usr/bin/env node
 import { calc } from "./calc_funcs.js";
+import inquirer from "inquirer";
+import chalk from "chalk";
 async function args() {
     const arg = await inquirer.prompt([{
             type: "number",
@@ -16,6 +18,7 @@ async function args() {
 async function calculator() {
     let opt = true;
     while (opt) {
+        console.log(chalk.bgBlueBright("Calculator by Masood"));
         const choice = await inquirer.prompt([{
                 type: "list",
                 name: "opt",
