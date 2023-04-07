@@ -1,4 +1,3 @@
-"use strict";
 /*Second task
 Arrays
 Ex:11 Names */
@@ -58,3 +57,4 @@ inv.pop();
 for (let i = 0; i < inv.length; i++) {
     console.log(inv[i]);
 }
+export {};

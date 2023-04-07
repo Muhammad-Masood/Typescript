@@ -1,10 +1,11 @@
 // EX:34 Pizzas
-var pizzas = ["Chicken Tandoori", "Chicken Tikka", "Thin Crust"];
-for (var index = 0; index < pizzas.length; index++) {
+let pizzas = ["Chicken Tandoori", "Chicken Tikka", "Thin Crust"];
+for (let index = 0; index < pizzas.length; index++) {
     console.log(pizzas[index]);
 }
 console.log("\n");
-for (var index = 0; index < pizzas.length; index++) {
-    console.log("I like ".concat(pizzas[index]));
+for (let index = 0; index < pizzas.length; index++) {
+    console.log(`I like ${pizzas[index]}`);
 }
 console.log("I really love pizza");
+export {};

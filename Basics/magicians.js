@@ -1,16 +1,20 @@
 // EX:41 Magicians
-var magicians = ["Sameer", "Nadir", "Jadoogar", "Aamil Junaid Bangali"];
+let magicians = ["Sameer", "Nadir", "Jadoogar", "Aamil Junaid Bangali"];
 function show_magicians(mag) {
-    for (var index = 0; index < mag.length; index++) {
+    for (let index = 0; index < mag.length; index++) {
         console.log(mag[index]);
     }
 }
 show_magicians(magicians);
 // EX:42 Great Magicians
-function make_great() {
-    for (var index = 0; index < magicians.length; index++) {
-        magicians[index] = "the Great" + " " + magicians[index];
+let copy_magicians = ["Sameer", "Nadir", "Jadoogar", "Aamil Junaid Bangali"];
+;
+function make_great(mag) {
+    for (let index = 0; index < mag.length; index++) {
+        mag[index] = "the Great" + " " + mag[index];
     }
 }
-make_great();
+make_great(copy_magicians);
 show_magicians(magicians);
+export {};
+// EX:43 Unchanged Magicians
