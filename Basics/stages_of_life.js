@@ -1,4 +1,5 @@
-var age = 18;
+// Ex:28 Stages of Life
+let age = 18;
 if (age < 2) {
     console.log("The person is a baby \n");
 }
@@ -17,3 +18,4 @@ else if (age >= 20 && age < 65) {
 else {
     console.log("The person is an elder \n");
 }
+export {};

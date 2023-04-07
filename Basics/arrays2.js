@@ -1,6 +1,6 @@
 //Ex:18 Seeing the world
-var places = ["Turkey", "Italy", "Switzerland", "Swat", "Kashmir"];
-for (var index = 0; index < places.length; index++) {
+const places = ["Turkey", "Italy", "Switzerland", "Swat", "Kashmir"];
+for (let index = 0; index < places.length; index++) {
     console.log(places[index]);
 }
 console.log("\n");
@@ -8,21 +8,21 @@ console.log("\n");
 //     for(let j = 0 ; j<places.length ; j++){
 //     }
 // }
-var not = true;
-var count = 0;
-var exclude = 0;
-for (var i = 0; i < places.length; i++) {
-    var temp = places[i];
+let not = true;
+let count = 0;
+let exclude = 0;
+for (let i = 0; i < places.length; i++) {
+    let temp = places[i];
     // console.log(tempElem);
-    for (var j = 0; j < places.length; j++) {
-        var comp = places[j];
+    for (let j = 0; j < places.length; j++) {
+        let comp = places[j];
         if (i != j && temp.charCodeAt(0) <= comp.charCodeAt(0)) {
             ++count;
             // console.log(comp,j); console.log(comp.charCodeAt(0));
         }
     }
     console.log(count, i);
-    var c = (places.length - 1) - exclude;
+    let c = (places.length - 1) - exclude;
     if (count == c) {
         console.log(temp, temp.charCodeAt(0));
         ++exclude;
@@ -60,4 +60,5 @@ console.log("\n");
 //     console.log(places[index]);
 // }
 //Ex:19 Dinner Guests
-console.log("I'm inviting 2 guests to the dinner!");
+console.log(`I'm inviting 2 guests to the dinner!`);
+export {};

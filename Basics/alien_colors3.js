@@ -1,5 +1,5 @@
 // Ex:27 Alien Colors#3
-var alienColor = "green";
+let alienColor = "green";
 if (alienColor == "green") {
     console.log("The Player just earned 5 points \n");
 }
@@ -29,3 +29,4 @@ else if (alienColor == "yellow") {
 else if (alienColor == "red") {
     console.log("The Player just earned 15 points \n");
 }
+export {};

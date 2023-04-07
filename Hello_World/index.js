@@ -1,7 +1,10 @@
 console.log("Hello World");
-var namee = "Masood";
+let namee = "Masood";
 console.log(typeof (namee));
 //namee = 123;
-var abc = 123;
+let abc = 123;
 console.log(abc);
-var num = 123;
+let num = 123;
+let na = "abc";
+na = 1;
+export {};
